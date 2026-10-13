@@ -1,0 +1,20 @@
+{
+  "normal_max_lwl": 10,
+  "premium_max_lwl": 20,
+  "premium_is_permanent": true,
+  "direct_lucb_gifting": false,
+  "player_market_transfer": true,
+  "market_transfer_model": "product_sale_for_LuCB",
+  "store_rotation_days": 15,
+  "high_value_lcb_campaign_bonus_percent": {
+    "min": 10,
+    "max": 30
+  },
+  "currencies": {
+    "LuCB": "normal_city_currency",
+    "LCB": "premium_currency"
+  },
+  "premium_fixed_price_lcb": 500,
+  "premium_fixed_level_lwl": 20,
+  "premium_pricing_rule": "All currently defined premium buildings are direct-store 20 LWL products at 500 LCB."
+}

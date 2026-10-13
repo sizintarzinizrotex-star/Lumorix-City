@@ -1,0 +1,35 @@
+{
+  "messages": {
+    "crime_high": [
+      "Bu şehirde kendimizi güvende hissetmiyoruz.",
+      "Son zamanlarda hırsızlık olayları arttı.",
+      "Polis hizmetleri güçlendirilmeli."
+    ],
+    "pollution_high": [
+      "Şehir çok kirli, daha fazla temizlik istiyoruz.",
+      "Çöp toplama hizmetleri yetersiz.",
+      "Daha fazla yeşil alan istiyoruz."
+    ],
+    "health_low": [
+      "Hastanelerde bekleme süresi çok uzun.",
+      "Sağlık hizmetleri artırılmalı."
+    ],
+    "education_low": [
+      "Okullarda kapasite yetersiz.",
+      "Çocuklarımız için daha fazla eğitim yatırımı istiyoruz."
+    ],
+    "traffic_high": [
+      "Trafikte çok zaman kaybediyoruz.",
+      "Daha iyi toplu taşıma istiyoruz."
+    ],
+    "happy": [
+      "Bu şehirde yaşamaktan çok memnunuz.",
+      "Parklar ve sosyal alanlar harika.",
+      "Lumorix City giderek güzelleşiyor."
+    ],
+    "leaving": [
+      "Hizmetler düzelmezse başka bir şehre taşınacağım.",
+      "Ailem için daha iyi bir şehir arıyoruz."
+    ]
+  }
+}

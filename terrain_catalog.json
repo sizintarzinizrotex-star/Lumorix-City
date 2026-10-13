@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "world_size": "80x80",
+  "terrain_types": ["plain", "hill", "mountain", "valley", "rock", "forest", "farm", "water", "coast", "quarry"],
+  "obstacles": ["mountain", "forest", "rock", "stone", "tree_cluster"],
+  "construction_machines": ["bulldozer", "excavator", "grader", "dump_truck", "crane", "asphalt_machine"],
+  "terrain_edit_flow": ["select_expansion", "open_terrain_panel", "select_machine", "start_simulation", "clear_obstacles", "grade_ground", "open_buildable_land"],
+  "costs": {
+    "bulldozer": {"lucb": 450, "fuel": 8, "time_seconds": 8},
+    "excavator": {"lucb": 700, "fuel": 12, "time_seconds": 12},
+    "grader": {"lucb": 500, "fuel": 9, "time_seconds": 9},
+    "dump_truck": {"lucb": 350, "fuel": 7, "time_seconds": 7},
+    "crane": {"lucb": 900, "fuel": 15, "time_seconds": 15},
+    "asphalt_machine": {"lucb": 650, "fuel": 11, "time_seconds": 11}
+  }
+}

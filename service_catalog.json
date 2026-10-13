@@ -1,0 +1,15 @@
+{
+  "normal_max_lwl": 10,
+  "services": [
+    {"id":"electricity","name":"Elektrik","capacity_base":500,"maintenance":40},
+    {"id":"water","name":"Su","capacity_base":500,"maintenance":35},
+    {"id":"sewage","name":"Kanalizasyon","capacity_base":500,"maintenance":38},
+    {"id":"waste","name":"Atık","capacity_base":450,"maintenance":32},
+    {"id":"police","name":"Polis","capacity_base":350,"maintenance":45},
+    {"id":"fire","name":"İtfaiye","capacity_base":350,"maintenance":45},
+    {"id":"health","name":"Sağlık","capacity_base":350,"maintenance":50},
+    {"id":"education","name":"Eğitim","capacity_base":350,"maintenance":42},
+    {"id":"parks","name":"Park/Yeşil Alan","capacity_base":250,"maintenance":20}
+  ],
+  "premium_level": 20
+}

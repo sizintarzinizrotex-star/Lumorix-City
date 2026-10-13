@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "storage_capacity": 5000,
+  "recipes": {
+    "cement": {"name":"Çimento", "inputs":{"stone":4,"sand":2}, "output":"cement", "output_quantity":5, "time_seconds":12},
+    "steel": {"name":"Çelik", "inputs":{"iron_ore":5,"oil":1}, "output":"steel", "output_quantity":3, "time_seconds":18},
+    "glass": {"name":"Cam", "inputs":{"sand":4}, "output":"glass", "output_quantity":3, "time_seconds":14},
+    "electronics": {"name":"Elektronik", "inputs":{"steel":1,"glass":1,"oil":1}, "output":"electronics", "output_quantity":2, "time_seconds":25},
+    "machine": {"name":"Makine", "inputs":{"steel":5,"electronics":2}, "output":"machine", "output_quantity":1, "time_seconds":35},
+    "fuel": {"name":"Yakıt", "inputs":{"oil":4}, "output":"fuel", "output_quantity":5, "time_seconds":15},
+    "construction_equipment": {"name":"İnşaat Ekipmanı", "inputs":{"steel":4,"machine":1,"electronics":1}, "output":"construction_equipment", "output_quantity":1, "time_seconds":45},
+    "motor_parts": {"name":"Motor Parçası", "inputs":{"steel":5,"electronics":2}, "output":"motor_parts", "output_quantity":1, "time_seconds":40},
+    "train_equipment": {"name":"Tren Ekipmanı", "inputs":{"steel":8,"electronics":3,"motor_parts":1}, "output":"train_equipment", "output_quantity":1, "time_seconds":55},
+    "ship_equipment": {"name":"Gemi Ekipmanı", "inputs":{"steel":10,"electronics":3,"machine":1}, "output":"ship_equipment", "output_quantity":1, "time_seconds":60},
+    "aircraft_equipment": {"name":"Uçak Ekipmanı", "inputs":{"steel":8,"electronics":5,"machine":1}, "output":"aircraft_equipment", "output_quantity":1, "time_seconds":70}
+  }
+}

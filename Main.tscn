@@ -1,0 +1,174 @@
+[gd_scene load_steps=40 format=3]
+
+[ext_resource type="Script" path="res://Main.gd" id="1"]
+[ext_resource type="Script" path="res://GameState.gd" id="2"]
+[ext_resource type="Script" path="res://CityWorld.gd" id="3"]
+[ext_resource type="Script" path="res://CameraController.gd" id="4"]
+[ext_resource type="Script" path="res://CitizenSystem.gd" id="5"]
+[ext_resource type="Script" path="res://Building.gd" id="6"]
+[ext_resource type="Script" path="res://UI.gd" id="7"]
+[ext_resource type="Script" path="res://DayNightSystem.gd" id="8"]
+[ext_resource type="Script" path="res://CityEvents.gd" id="9"]
+[ext_resource type="Script" path="res://SaveSystem.gd" id="10"]
+[ext_resource type="Script" path="res://StoreSystem.gd" id="11"]
+[ext_resource type="Script" path="res://CitySimulation.gd" id="12"]
+[ext_resource type="Script" path="res://TrafficSystem.gd" id="13"]
+[ext_resource type="Script" path="res://AccountSystem.gd" id="14"]
+[ext_resource type="Script" path="res://InteractiveBuildingSystem.gd" id="15"]
+[ext_resource type="Script" path="res://RoadNetworkSystem.gd" id="16"]
+[ext_resource type="Script" path="res://WeatherSystem.gd" id="17"]
+[ext_resource type="Script" path="res://QuestAchievementSystem.gd" id="18"]
+[ext_resource type="Script" path="res://FriendSystem.gd" id="19"]
+[ext_resource type="Script" path="res://InfrastructureSystem.gd" id="20"]
+[ext_resource type="Script" path="res://UpgradeSystem.gd" id="21"]
+[ext_resource type="Script" path="res://CitizenLifeSystem.gd" id="22"]
+[ext_resource type="Script" path="res://ProductionSystem.gd" id="23"]
+[ext_resource type="Script" path="res://MarketSystem.gd" id="24"]
+[ext_resource type="Script" path="res://TaxSystem.gd" id="25"]
+[ext_resource type="Script" path="res://TerrainExpansionSystem.gd" id="26"]
+[ext_resource type="Script" path="res://ServiceVehicleSystem.gd" id="27"]
+[ext_resource type="Script" path="res://VehicleEconomySystem.gd" id="28"]
+[ext_resource type="Script" path="res://TransportEconomySystem.gd" id="29"]
+[ext_resource type="Script" path="res://LandValueSystem.gd" id="30"]
+[ext_resource type="Script" path="res://CityAddressSystem.gd" id="31"]
+[ext_resource type="Script" path="res://LumorixDeliverySystem.gd" id="32"]
+
+[ext_resource type="AudioStream" path="res://city_ambience.wav" id="33"]
+[ext_resource type="AudioStream" path="res://city_traffic.wav" id="34"]
+[ext_resource type="AudioStream" path="res://city_birds.wav" id="35"]
+[ext_resource type="AudioStream" path="res://city_construction.wav" id="36"]
+[ext_resource type="Script" path="res://CityAudioSystem.gd" id="37"]
+
+[sub_resource type="Environment" id="Environment_main"]
+background_mode = 1
+background_color = Color(0.08, 0.19, 0.31, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.75, 0.86, 1, 1)
+ambient_light_energy = 0.65
+
+
+[node name="LumorixCity" type="Node3D"]
+script = ExtResource("1")
+
+[node name="GameState" type="Node" parent="."]
+script = ExtResource("2")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_main")
+
+[node name="CityWorld" type="Node3D" parent="."]
+script = ExtResource("3")
+
+[node name="RoadNetworkSystem" type="Node3D" parent="."]
+script = ExtResource("16")
+
+[node name="WeatherSystem" type="Node" parent="."]
+script = ExtResource("17")
+
+[node name="QuestAchievementSystem" type="Node" parent="."]
+script = ExtResource("18")
+
+[node name="FriendSystem" type="Node" parent="."]
+script = ExtResource("19")
+
+[node name="InfrastructureSystem" type="Node" parent="."]
+script = ExtResource("20")
+
+[node name="UpgradeSystem" type="Node" parent="."]
+script = ExtResource("21")
+
+[node name="CitizenLifeSystem" type="Node" parent="."]
+script = ExtResource("22")
+
+[node name="ProductionSystem" type="Node" parent="."]
+script = ExtResource("23")
+
+[node name="MarketSystem" type="Node" parent="."]
+script = ExtResource("24")
+
+[node name="TaxSystem" type="Node" parent="."]
+script = ExtResource("25")
+
+[node name="TerrainExpansionSystem" type="Node" parent="."]
+script = ExtResource("26")
+
+[node name="ServiceVehicleSystem" type="Node3D" parent="."]
+script = ExtResource("27")
+
+[node name="VehicleEconomySystem" type="Node" parent="."]
+script = ExtResource("28")
+
+[node name="TransportEconomySystem" type="Node" parent="."]
+script = ExtResource("29")
+[node name="CitizenSystem" type="Node3D" parent="."]
+script = ExtResource("5")
+
+[node name="DayNightSystem" type="Node3D" parent="."]
+script = ExtResource("8")
+
+[node name="CityEvents" type="Node" parent="."]
+script = ExtResource("9")
+
+[node name="SaveSystem" type="Node" parent="."]
+script = ExtResource("10")
+
+[node name="StoreSystem" type="Node" parent="."]
+script = ExtResource("11")
+
+[node name="CitySimulation" type="Node" parent="."]
+script = ExtResource("12")
+
+[node name="TrafficSystem" type="Node3D" parent="."]
+script = ExtResource("13")
+
+[node name="AccountSystem" type="Node" parent="."]
+script = ExtResource("14")
+
+[node name="InteractiveBuildingSystem" type="Node" parent="."]
+script = ExtResource("15")
+
+[node name="CameraController" type="Camera3D" parent="."]
+script = ExtResource("4")
+position = Vector3(0, 45, 42)
+rotation_degrees = Vector3(-48, 0, 0)
+current = true
+
+[node name="UI" type="CanvasLayer" parent="."]
+script = ExtResource("7")
+
+
+[node name="LandValueSystem" type="Node" parent="."]
+script = ExtResource("30")
+
+[node name="CityAddressSystem" type="Node" parent="."]
+script = ExtResource("31")
+
+[node name="LumorixDeliverySystem" type="Node3D" parent="."]
+script = ExtResource("32")
+
+[node name="CityAudio_Ambience" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("33")
+autoplay = true
+volume_db = -18.0
+
+[node name="CityAudio_Traffic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("34")
+autoplay = true
+volume_db = -24.0
+
+[node name="CityAudio_Birds" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35")
+autoplay = true
+volume_db = -28.0
+
+[node name="CityAudio_Construction" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("36")
+autoplay = true
+volume_db = -32.0
+
+[node name="CityAudioSystem" type="Node" parent="."]
+script = ExtResource("37")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-45, -30, 0)
+light_energy = 1.0

@@ -1,0 +1,14 @@
+{
+  "rule": "Her normal yükseltme LuCB + ekipman/malzeme ister.",
+  "levels": {
+    "2": {"lucb":500,"materials":{"cement":20,"steel":10,"glass":5}},
+    "3": {"lucb":1200,"materials":{"cement":40,"steel":25,"glass":10,"electronics":10,"machine":5}},
+    "4": {"lucb":2500,"materials":{"steel":50,"electronics":25,"machine":15,"fuel":10,"construction_equipment":5}},
+    "5": {"lucb":5000,"materials":{"steel":100,"electronics":50,"machine":30,"fuel":20,"construction_equipment":10}},
+    "6": {"lucb":8500,"materials":{"steel":180,"electronics":60,"machine":45,"fuel":30,"construction_equipment":15}},
+    "7": {"lucb":14000,"materials":{"steel":260,"electronics":90,"machine":65,"fuel":45,"construction_equipment":25}},
+    "8": {"lucb":22000,"materials":{"steel":380,"electronics":130,"machine":90,"fuel":65,"construction_equipment":35}},
+    "9": {"lucb":34000,"materials":{"steel":520,"electronics":180,"machine":125,"fuel":90,"construction_equipment":50}},
+    "10": {"lucb":52000,"materials":{"steel":700,"electronics":240,"machine":170,"fuel":120,"construction_equipment":70}}
+  }
+}

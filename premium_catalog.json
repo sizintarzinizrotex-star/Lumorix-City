@@ -1,0 +1,190 @@
+{
+  "normal_max_lwl": 10,
+  "premium_max_lwl": 20,
+  "premium_items": [
+    {
+      "id": "super_police",
+      "name": "Süper Polis Merkezi",
+      "category": "public_service",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "super_fire",
+      "name": "Süper İtfaiye Merkezi",
+      "category": "public_service",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "special_hospital",
+      "name": "Özel Hastane",
+      "category": "public_service",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "special_university",
+      "name": "Özel Üniversite Kampüsü",
+      "category": "education",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "grand_hotel",
+      "name": "Lumorix City Grand Hotel",
+      "category": "hotel",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "mega_airport",
+      "name": "Büyük Havalimanı",
+      "category": "transport",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "mega_port",
+      "name": "Mega Liman",
+      "category": "transport",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_metro",
+      "name": "Premium Metro İstasyonu",
+      "category": "transport",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_train_station",
+      "name": "Premium Tren Garı",
+      "category": "transport",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "mega_bridge",
+      "name": "Mega Köprü",
+      "category": "infrastructure",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_roundabout",
+      "name": "Özel Döner Kavşak",
+      "category": "roads",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_power",
+      "name": "Premium Elektrik Merkezi",
+      "category": "utility",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_water",
+      "name": "Premium Su Tesisi",
+      "category": "utility",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_sewage",
+      "name": "Premium Kanalizasyon Tesisi",
+      "category": "utility",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_waste",
+      "name": "Premium Atık Tesisi",
+      "category": "utility",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_treatment",
+      "name": "Premium Arıtma Tesisi",
+      "category": "utility",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_mall",
+      "name": "Lumorix Grand AVM",
+      "category": "interactive",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "mega_stadium",
+      "name": "Lumorix Mega Stadyum",
+      "category": "interactive",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_gas_station",
+      "name": "Premium Benzin İstasyonu",
+      "category": "commercial",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_automotive_dealership",
+      "name": "Premium Otomotiv Satış Bayisi",
+      "category": "commercial",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_concert_area",
+      "name": "Lumorix Süper Konser Alanı",
+      "category": "interactive_event",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_rally_area",
+      "name": "Lumorix Süper Miting Alanı",
+      "category": "interactive_event",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    },
+    {
+      "id": "premium_crane_pack",
+      "name": "Premium 5'li İnşaat Vinç Paketi",
+      "category": "construction",
+      "price_lcb": 500,
+      "level": 20,
+      "price_status": "locked"
+    }
+  ]
+}

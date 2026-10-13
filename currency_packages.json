@@ -1,0 +1,26 @@
+{
+  "lcb": [
+    {"amount":250,"price_try":400},
+    {"amount":2500,"price_try":1999},
+    {"amount":4500,"price_try":3599},
+    {"amount":7500,"price_try":6200},
+    {"amount":10000,"price_try":8299},
+    {"amount":15000,"price_try":12400},
+    {"amount":25000,"price_try":19999},
+    {"amount":35000,"price_try":26999},
+    {"amount":50000,"price_try":39999},
+    {"amount":80000,"price_try":64999},
+    {"amount":100000,"price_try":75999}
+  ],
+  "lucb": [
+    {"amount":500,"price_try":199},
+    {"amount":2500,"price_try":999},
+    {"amount":5000,"price_try":1999},
+    {"amount":10000,"price_try":3999},
+    {"amount":20000,"price_try":6999},
+    {"amount":40000,"price_try":14999},
+    {"amount":80000,"price_try":29999},
+    {"amount":150000,"price_try":59999}
+  ],
+  "campaigns": {"high_value_bonus_min_percent":10,"high_value_bonus_max_percent":30,"rotation_days":15}
+}

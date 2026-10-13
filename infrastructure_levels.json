@@ -1,0 +1,21 @@
+{
+  "normal_max_lwl": 10,
+  "service_levels": 5,
+  "services": {
+    "electricity": {"name":"Elektrik Merkezi","base_capacity":500,"level_capacity":250,"maintenance":40},
+    "water": {"name":"Su Tesisi","base_capacity":500,"level_capacity":250,"maintenance":35},
+    "sewage": {"name":"Kanalizasyon Tesisi","base_capacity":500,"level_capacity":250,"maintenance":35},
+    "waste": {"name":"Atık Tesisi","base_capacity":400,"level_capacity":220,"maintenance":30},
+    "police": {"name":"Polis Merkezi","base_capacity":400,"level_capacity":200,"maintenance":45},
+    "fire": {"name":"İtfaiye Merkezi","base_capacity":400,"level_capacity":200,"maintenance":45},
+    "health": {"name":"Hastane","base_capacity":350,"level_capacity":180,"maintenance":50},
+    "education": {"name":"Eğitim Merkezi","base_capacity":350,"level_capacity":180,"maintenance":45},
+    "parks": {"name":"Park / Yeşil Alan","base_capacity":300,"level_capacity":150,"maintenance":15}
+  },
+  "upgrade_materials": {
+    "2": {"lucb":500,"cement":20,"steel":10,"glass":5},
+    "3": {"lucb":1200,"cement":40,"steel":25,"electronics":10,"machine":5},
+    "4": {"lucb":2500,"steel":50,"electronics":25,"machine":15,"fuel":10,"construction_equipment":5},
+    "5": {"lucb":5000,"steel":100,"electronics":50,"machine":30,"fuel":20,"construction_equipment":10}
+  }
+}

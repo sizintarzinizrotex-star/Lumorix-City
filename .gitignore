@@ -1,0 +1,10 @@
+.godot/
+*.backup
+*.before_*
+.DS_Store
+
+# Yedek klasörleri
+backups/
+
+# Godot geçici önbelleği
+.godot/

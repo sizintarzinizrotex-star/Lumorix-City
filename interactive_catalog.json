@@ -1,0 +1,132 @@
+{
+  "interactive_buildings": [
+    {
+      "id": "mall",
+      "name": "Lumorix AVM",
+      "features": [
+        "shops",
+        "restaurants",
+        "escalators",
+        "visitors",
+        "interior_camera"
+      ]
+    },
+    {
+      "id": "stadium",
+      "name": "Lumorix Stadyumu",
+      "features": [
+        "crowd",
+        "match",
+        "scoreboard",
+        "seating",
+        "event_camera"
+      ]
+    },
+    {
+      "id": "hospital",
+      "name": "Şehir Hastanesi",
+      "features": [
+        "patients",
+        "ambulances",
+        "beds",
+        "service_stats"
+      ]
+    },
+    {
+      "id": "school",
+      "name": "Şehir Okulu",
+      "features": [
+        "students",
+        "teachers",
+        "school_buses",
+        "education_stats"
+      ]
+    },
+    {
+      "id": "airport",
+      "name": "Havalimanı",
+      "features": [
+        "passengers",
+        "aircraft",
+        "gates",
+        "routes"
+      ]
+    },
+    {
+      "id": "port",
+      "name": "Liman",
+      "features": [
+        "cargo",
+        "passengers",
+        "ships",
+        "loading"
+      ]
+    },
+    {
+      "id": "gas_station",
+      "name": "Benzin İstasyonu",
+      "features": [
+        "fuel_pumps",
+        "market",
+        "service_area",
+        "vehicles",
+        "interior_camera"
+      ]
+    },
+    {
+      "id": "automotive_dealership",
+      "name": "Otomotiv Satış Bayisi",
+      "features": [
+        "showroom",
+        "vehicle_display",
+        "sales_desk",
+        "service_area",
+        "interior_camera"
+      ]
+    },
+    {
+      "id": "concert_area",
+      "name": "Lumorix Konser Alanı",
+      "features": [
+        "stage",
+        "crowd",
+        "event_lighting",
+        "city_happiness",
+        "event_messages"
+      ]
+    },
+    {
+      "id": "rally_area",
+      "name": "Lumorix Halk / Miting Alanı",
+      "features": [
+        "podium",
+        "crowd",
+        "president_speech",
+        "city_announcements",
+        "event_messages"
+      ]
+    },
+    {
+      "id": "premium_concert_area",
+      "name": "Lumorix Süper Konser Alanı",
+      "features": [
+        "premium_stage",
+        "large_crowd",
+        "light_show",
+        "city_happiness",
+        "event_messages"
+      ]
+    },
+    {
+      "id": "premium_rally_area",
+      "name": "Lumorix Süper Miting Alanı",
+      "features": [
+        "premium_podium",
+        "large_crowd",
+        "president_speech",
+        "city_announcements",
+        "event_messages"
+      ]
+    }
+  ]
+}

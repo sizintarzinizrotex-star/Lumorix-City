@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "mobile_visual_tier": "GL Compatibility",
+  "building_variants": {
+    "residential": [
+      "house",
+      "apartment",
+      "tower"
+    ],
+    "commercial": [
+      "shop",
+      "office",
+      "mall"
+    ],
+    "industrial": [
+      "factory",
+      "warehouse",
+      "processing"
+    ],
+    "public": [
+      "police",
+      "fire",
+      "hospital",
+      "school",
+      "university"
+    ],
+    "utilities": [
+      "power",
+      "water",
+      "sewage",
+      "waste",
+      "treatment"
+    ],
+    "transport": [
+      "metro_station",
+      "train_station",
+      "port",
+      "airport"
+    ],
+    "commercial_special": [
+      "gas_station",
+      "automotive_dealership"
+    ]
+  },
+  "interactive": [
+    "mall",
+    "stadium",
+    "hospital",
+    "school",
+    "airport",
+    "port",
+    "gas_station",
+    "automotive_dealership"
+  ],
+  "vehicle_types": [
+    "car",
+    "bus",
+    "truck",
+    "taxi",
+    "police_car",
+    "fire_truck",
+    "ambulance",
+    "train",
+    "plane",
+    "ship",
+    "garbage_truck",
+    "fuel_tanker",
+    "logistics_truck",
+    "construction_truck",
+    "municipal_service"
+  ],
+  "citizen_types": [
+    "adult",
+    "child",
+    "worker",
+    "student",
+    "tourist",
+    "service_staff"
+  ],
+  "performance": {
+    "lod": true,
+    "instancing_ready": true,
+    "mobile_target": true
+  }
+}

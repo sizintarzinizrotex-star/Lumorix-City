@@ -1,0 +1,28 @@
+{
+  "currency": "LuCB",
+  "direct_currency_gifting": false,
+  "seller_receives": "LuCB",
+  "fixed_ad_area": true,
+  "ad_reward_lucb": 25,
+  "dynamic_pricing": true,
+  "price_model": "base_price x scarcity x city_activity",
+  "items": {
+    "cement": {"name":"Çimento","base_price":8,"target_demand":180},
+    "steel": {"name":"Çelik","base_price":24,"target_demand":140},
+    "glass": {"name":"Cam","base_price":16,"target_demand":120},
+    "electronics": {"name":"Elektronik","base_price":80,"target_demand":85},
+    "machine": {"name":"Makine","base_price":150,"target_demand":65},
+    "fuel": {"name":"Yakıt","base_price":18,"target_demand":160},
+    "construction_equipment": {"name":"İnşaat Ekipmanı","base_price":220,"target_demand":45},
+    "motor_parts": {"name":"Motor Parçası","base_price":180,"target_demand":40},
+    "train_equipment": {"name":"Tren Ekipmanı","base_price":650,"target_demand":20},
+    "ship_equipment": {"name":"Gemi Ekipmanı","base_price":750,"target_demand":18},
+    "aircraft_equipment": {"name":"Uçak Ekipmanı","base_price":950,"target_demand":12}
+  },
+  "listings": [
+    {"id":"cement_100","name":"Çimento","quantity":100,"price_lucb":850},
+    {"id":"steel_50","name":"Çelik","quantity":50,"price_lucb":1200},
+    {"id":"electronics_20","name":"Elektronik","quantity":20,"price_lucb":1600},
+    {"id":"machines_10","name":"Makine","quantity":10,"price_lucb":2400}
+  ]
+}

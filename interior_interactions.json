@@ -1,0 +1,154 @@
+{
+  "mall": {
+    "areas": [
+      "mağazalar",
+      "restoranlar",
+      "yürüyen merdivenler",
+      "ziyaretçiler"
+    ],
+    "actions": [
+      "mağaza gez",
+      "restorana git",
+      "vatandaşları izle"
+    ]
+  },
+  "stadium": {
+    "areas": [
+      "tribünler",
+      "saha",
+      "skor tabelası",
+      "giriş/çıkış"
+    ],
+    "actions": [
+      "maç izle",
+      "skoru gör",
+      "seyirci tepkilerini izle"
+    ]
+  },
+  "hospital": {
+    "areas": [
+      "acil servis",
+      "poliklinikler",
+      "hasta odaları",
+      "personel alanı"
+    ],
+    "actions": [
+      "sağlık hizmetini izle",
+      "hasta yoğunluğunu gör"
+    ]
+  },
+  "school": {
+    "areas": [
+      "sınıflar",
+      "laboratuvar",
+      "bahçe",
+      "öğretmen alanı"
+    ],
+    "actions": [
+      "öğrenci yoğunluğunu gör",
+      "eğitim hizmetini izle"
+    ]
+  },
+  "airport": {
+    "areas": [
+      "terminal",
+      "kapılar",
+      "bagaj",
+      "pist"
+    ],
+    "actions": [
+      "uçuşları izle",
+      "yolcu yoğunluğunu gör"
+    ]
+  },
+  "port": {
+    "areas": [
+      "rıhtım",
+      "konteyner alanı",
+      "vinçler",
+      "yolcu terminali"
+    ],
+    "actions": [
+      "kargo operasyonunu izle",
+      "gemi trafiğini gör"
+    ]
+  },
+  "gas_station": {
+    "areas": [
+      "market",
+      "yakıt pompaları",
+      "servis alanı",
+      "kasa"
+    ],
+    "actions": [
+      "yakıt işlemlerini gör",
+      "market yoğunluğunu gör",
+      "servis alanını izle"
+    ]
+  },
+  "automotive_dealership": {
+    "areas": [
+      "showroom",
+      "araç sergisi",
+      "satış masası",
+      "servis alanı"
+    ],
+    "actions": [
+      "araçları incele",
+      "satış yoğunluğunu gör",
+      "servis operasyonunu izle"
+    ]
+  },
+  "concert_area": {
+    "areas": [
+      "sahne",
+      "seyirci alanı",
+      "etkinlik girişi",
+      "ışık/kontrol alanı"
+    ],
+    "actions": [
+      "etkinliği izle",
+      "kalabalığı gör",
+      "şehir eğlencesini gör"
+    ]
+  },
+  "rally_area": {
+    "areas": [
+      "kürsü",
+      "vatandaş alanı",
+      "güvenlik/giriş",
+      "duyuru alanı"
+    ],
+    "actions": [
+      "başkan konuşmasını gör",
+      "vatandaş tepkilerini izle",
+      "şehir duyurularını gör"
+    ]
+  },
+  "premium_concert_area": {
+    "areas": [
+      "premium sahne",
+      "özel tribün",
+      "ışık kuleleri",
+      "etkinlik kontrol alanı"
+    ],
+    "actions": [
+      "ışık gösterisini izle",
+      "premium etkinliği gör",
+      "kalabalığı izle"
+    ]
+  },
+  "premium_rally_area": {
+    "areas": [
+      "premium kürsü",
+      "vatandaş alanı",
+      "güvenlik/giriş",
+      "yayın alanı"
+    ],
+    "actions": [
+      "başkan konuşmasını gör",
+      "premium mitingi izle",
+      "şehir duyurusunu gör"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "events": [
+    {"id":"theft_wave","name":"Hırsızlık Dalgası","condition":"safety_low","impact":"citizen_complaints"},
+    {"id":"waste_overflow","name":"Atık Birikimi","condition":"environment_low","impact":"environment_happiness_down"},
+    {"id":"traffic_jam","name":"Trafik Yoğunluğu","condition":"traffic_low","impact":"mobility_down"},
+    {"id":"festival","name":"Şehir Festivali","condition":"happiness_high","impact":"tourism_happiness_up"},
+    {"id":"match_day","name":"Maç Günü","condition":"stadium_active","impact":"tourism_happiness_up"}
+  ]
+}

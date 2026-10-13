@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "design_goal": "Vergiler başlangıçta düşük tutulur; şehir büyüdükçe nüfus, istihdam, ulaşım ve ekonomik hareketlilik ile kademeli artar.",
+  "progressive_development_thresholds": [20, 25, 35],
+  "base_rate_percent": 1.5,
+  "brackets": [
+    {"max_development_lwl": 20, "rate_percent": 1.5, "multiplier": 1.0},
+    {"max_development_lwl": 25, "rate_percent": 2.0, "multiplier": 1.15},
+    {"max_development_lwl": 35, "rate_percent": 2.5, "multiplier": 1.35},
+    {"max_development_lwl": 999, "rate_percent": 3.0, "multiplier": 1.6}
+  ],
+  "income_sources": {
+    "residential": 0.42,
+    "commercial": 0.24,
+    "industrial": 0.20,
+    "transport": 0.08,
+    "tourism": 0.06
+  },
+  "population_factor": 1.0,
+  "employment_factor": 0.35,
+  "transport_factor": 0.45,
+  "happiness_factor": 0.75,
+  "safety_factor": 0.25,
+  "environment_factor": 0.20,
+  "service_capacity_bonus": 0.35,
+  "collection_interval_seconds": 10.0
+}

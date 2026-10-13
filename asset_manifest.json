@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "visual_target": "Lumorix City living 3D mobile city",
+  "procedural_foundation": [
+    "residential",
+    "commercial",
+    "factory",
+    "police",
+    "hospital",
+    "school",
+    "mall",
+    "stadium",
+    "utility",
+    "park",
+    "street_lamp",
+    "trees"
+  ],
+  "required_assets": {
+    "roads": [
+      "2_lane",
+      "4_lane",
+      "6_lane",
+      "8_lane",
+      "highway",
+      "intersection",
+      "roundabout",
+      "bridge",
+      "tunnel",
+      "underpass",
+      "overpass"
+    ],
+    "public_services": [
+      "police_1_10",
+      "super_police_20",
+      "fire_1_10",
+      "super_fire_20",
+      "hospital_1_10",
+      "special_hospital_20",
+      "school_1_10",
+      "special_university_20"
+    ],
+    "utilities": [
+      "power_1_10",
+      "water_1_10",
+      "sewage_1_10",
+      "waste_1_10",
+      "treatment",
+      "premium_variants"
+    ],
+    "commercial_social": [
+      "mall_1_10",
+      "premium_mall_20",
+      "stadium_1_10",
+      "mega_stadium_20",
+      "hotel_1_10",
+      "grand_hotel_20",
+      "parks",
+      "sports_facilities",
+      "event_area",
+      "concert_area",
+      "rally_area",
+      "premium_concert_area",
+      "premium_rally_area",
+      "construction_crane",
+      "gas_station",
+      "automotive_dealership"
+    ],
+    "transport": [
+      "metro_1_10",
+      "premium_metro_20",
+      "train_station_1_10",
+      "premium_train_station_20",
+      "airport_1_10",
+      "mega_airport_20",
+      "port_1_10",
+      "mega_port_20",
+      "trains",
+      "planes",
+      "ships",
+      "buses",
+      "cars"
+    ],
+    "citizens": [
+      "adult",
+      "child",
+      "worker",
+      "student",
+      "tourist",
+      "service_staff",
+      "crowd_variants"
+    ],
+    "city_props": [
+      "traffic_lights",
+      "signs",
+      "crosswalks",
+      "street_lights",
+      "benches",
+      "trees",
+      "trash_bins",
+      "parking",
+      "construction_equipment",
+      "fuel_tanker",
+      "garbage_truck",
+      "logistics_truck",
+      "construction_truck",
+      "municipal_service"
+    ]
+  },
+  "performance_rules": {
+    "renderer": "4.x GL Compatibility",
+    "mobile_first": true,
+    "lod_required": true,
+    "world_streaming_required": true,
+    "target_world_initial": "80x80",
+    "future_worlds": [
+      "100x100",
+      "150x150",
+      "200x200+"
+    ]
+  },
+  "systems_in_progress": [
+    "advanced_road_network",
+    "weather",
+    "quests_achievements",
+    "friend_system_architecture"
+  ],
+  "city_props": [
+    "garbage_truck",
+    "fuel_tanker",
+    "logistics_truck",
+    "construction_truck",
+    "municipal_service"
+  ]
+}

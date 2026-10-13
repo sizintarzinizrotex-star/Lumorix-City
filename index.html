@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Lumorix City | Lumorix Gamer Studio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #f4f7ff;
+      background: #0b1020;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 6%;
+      background: #121a2d;
+      border-bottom: 1px solid #273653;
+    }
+    .brand { font-weight: 800; font-size: 20px; }
+    .brand span { color: #62d9ff; }
+    nav a { color: #dce7ff; text-decoration: none; margin-left: 18px; }
+    main { max-width: 1200px; margin: auto; padding: 28px 20px 60px; }
+    .hero {
+      min-height: 350px;
+      padding: clamp(28px, 6vw, 72px);
+      border: 1px solid #30496d;
+      border-radius: 24px;
+      background: radial-gradient(ellipse at top right, #1a6480, transparent 55%),
+                  linear-gradient(135deg, #192944, #111528 70%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .tag { color: #79e4ff; font-weight: bold; letter-spacing: 2px; }
+    h1 { font-size: clamp(38px, 7vw, 76px); margin: 16px 0; }
+    p { line-height: 1.65; color: #c0cce2; max-width: 650px; }
+    .button {
+      display: inline-block;
+      border: 0;
+      border-radius: 10px;
+      padding: 14px 22px;
+      background: #58d7ff;
+      color: #071321;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 12px;
+    }
+    h2 { margin-top: 36px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .card { background: #151f34; border: 1px solid #293b59; border-radius: 16px; padding: 22px; }
+    .card h3 { margin-top: 0; }
+    .muted { color: #9aabc7; font-size: 14px; }
+    .notice { border-left: 3px solid #58d7ff; padding: 12px 16px; background: #111b2d; }
+    footer { border-top: 1px solid #273653; padding: 26px 6%; color: #9aabc7; text-align: center; }
+    @media (max-width: 600px) {
+      header { align-items: flex-start; flex-direction: column; }
+      nav a { margin: 0 12px 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">LUMORIX <span>GAMER STUDIO</span></div>
+    <nav>
+      <a href="#oyun">Oyun</a>
+      <a href="#duyurular">Duyurular</a>
+      <a href="#destek">Bilgi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="oyun">
+      <div class="tag">KENDİ ŞEHRİNİ KUR</div>
+      <h1>Lumorix City</h1>
+      <p>Şehrini kur, yollarını planla, ekonomini yönet ve Lumorix dünyasını büyüt.</p>
+      <button class="button" id="playButton">Oyunu başlat</button>
+      <p class="muted" id="playStatus">Oyun dosyası bağlandığında burada açılacak.</p>
+    </section>
+
+    <h2>Oyun merkezi</h2>
+    <section class="grid">
+      <article class="card">
+        <h3>🏙️ Lumorix City</h3>
+        <p>Şehir kurma ve yönetme deneyimi.</p>
+        <span class="muted">Web sürümü hazırlanıyor</span>
+      </article>
+      <article class="card">
+        <h3>🎮 Yeni oyunlar</h3>
+        <p>Yeni oyunlar hazırlandıkça burada listelenecek.</p>
+      </article>
+      <article class="card">
+        <h3>📢 Duyurular</h3>
+        <p>Geliştirme haberleri ve güncellemeler.</p>
+      </article>
+    </section>
+
+    <h2 id="duyurular">Duyurular</h2>
+    <section class="notice">
+      Lumorix City geliştirme aşamasında. Web oynanışı, gerçek oyun dosyası bağlandıktan sonra etkinleştirilecek.
+    </section>
+
+    <h2>Sponsor alanları</h2>
+    <section class="grid" id="sponsors"></section>
+
+    <h2 id="destek">Lumorix Gamer Studio</h2>
+    <p>Bağımsız oyun geliştirme projesi. Bu sayfa ilk web arayüzü taslağıdır.</p>
+  </main>
+
+  <footer>© <span id="year"></span> Lumorix Gamer Studio · Tüm hakları saklıdır.</footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const sponsors = document.getElementById("sponsors");
+    for (let i = 1; i <= 50; i++) {
+      const card = document.createElement("article");
+      card.className = "card";
+      card.innerHTML = `<h3>Sponsor alanı ${i}</h3><p class="muted">Sponsor bilgisi eklenecek.</p>`;
+      sponsors.appendChild(card);
+    }
+
+    document.getElementById("playButton").addEventListener("click", () => {
+      document.getElementById("playStatus").textContent =
+        "Web oyun çıktısı henüz bağlanmadı. Sonraki aşamada oyun dosyaları entegre edilecek.";
+    });
+  </script>
+</body>
+</html>
+```

@@ -1,0 +1,111 @@
+{
+  "normal_max_lwl": 10,
+  "buildings": [
+    {
+      "id": "residential_basic",
+      "name": "Konut",
+      "type": "residential",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "commercial_basic",
+      "name": "Ticaret Merkezi",
+      "type": "commercial",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "factory_cement",
+      "name": "Çimento Fabrikası",
+      "type": "factory",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "police",
+      "name": "Polis Merkezi",
+      "type": "police",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "fire",
+      "name": "İtfaiye Merkezi",
+      "type": "fire",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "hospital",
+      "name": "Şehir Hastanesi",
+      "type": "hospital",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "school",
+      "name": "Şehir Okulu",
+      "type": "school",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "hotel",
+      "name": "Şehir Oteli",
+      "type": "hotel",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "mall",
+      "name": "Lumorix AVM",
+      "type": "mall",
+      "normal_max_lwl": 10,
+      "interactive": true
+    },
+    {
+      "id": "stadium",
+      "name": "Lumorix Stadyumu",
+      "type": "stadium",
+      "normal_max_lwl": 10,
+      "interactive": true
+    },
+    {
+      "id": "power",
+      "name": "Elektrik Tesisi",
+      "type": "power",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "water",
+      "name": "Su Tesisi",
+      "type": "water",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "sewage",
+      "name": "Kanalizasyon Tesisi",
+      "type": "sewage",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "waste",
+      "name": "Atık Tesisi",
+      "type": "waste",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "school_campus",
+      "name": "Eğitim Kampüsü",
+      "type": "education",
+      "normal_max_lwl": 10
+    },
+    {
+      "id": "gas_station",
+      "name": "Benzin İstasyonu",
+      "type": "gas_station",
+      "normal_max_lwl": 10,
+      "interactive": true
+    },
+    {
+      "id": "automotive_dealership",
+      "name": "Otomotiv Satış Bayisi",
+      "type": "automotive_dealership",
+      "normal_max_lwl": 10,
+      "interactive": true
+    }
+  ]
+}
